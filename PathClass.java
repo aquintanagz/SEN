@@ -24,6 +24,7 @@ public class PathClass {
        
          Path path1 = Paths.get("/Users/aquintanagz/Desktop/Hola6.txt"); // ruta absoluta
          Files.createFile(path1);
+
             
          // Path path2 = Paths.get("Users","aquintanagz","Desktop","NUEVO_DIRECTORIO"); // ruta absoluta
          Path path2 = Paths.get("/Users/aquintanagz/Desktop/AUDI"); // ruta absoluta
@@ -195,6 +196,7 @@ public class PathClass {
           public static void main190(String[] args) {
                 Path path1 =  Paths.get(".").normalize();
                 System.out.println(path1);
+		System.out.println(“test”);
                System.out.println(path1.getNameCount());
               for (int i = 0; i < path1.getNameCount(); i++) {
                   
